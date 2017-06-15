@@ -1,0 +1,9 @@
+---
+applications:
+- name: ci-radiator-server
+  memory: 512MB
+  disk_quota: 512MB
+  instances: 1
+  command: node ./index.js
+  host: ci-radiator-server
+  path: .
